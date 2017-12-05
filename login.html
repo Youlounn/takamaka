@@ -10,7 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+		<link rel="stylesheet" href="Vue/assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -48,12 +49,12 @@
                     <h2>Inscription</h2>
                   </header>
                   <form id="formConnexion" action="Controleur/Routeur.php" method="post">
-                    <input type="text" name="nom" value="" placeholder="Nom"><br>
-                    <input type="text" name="prenom" value="" placeholder="Prénom"><br>
-                    <input type="text" name="mail" value="" placeholder="Mail"><br>
-                    <input type="password" name="mdp1" value="" placeholder="Mot de passe"><br>
-                    <input type="password" name="mdp2" value="" placeholder="Vérification mot de passe"><br>
-                    <input type="submit" name="validInscription" value="S'inscrire">
+                    <input type="text" name="nom" value="" placeholder="Nom" required><br>
+                    <input type="text" name="prenom" value="" placeholder="Prénom" required><br>
+                    <input type="text" name="mail" value="" placeholder="Mail" required><br>
+                    <input type="password" name="mdp1" value="" placeholder="Mot de passe" required><br>
+                    <input type="password" name="mdp2" value="" placeholder="Vérification mot de passe" required><br>
+                    <input type="submit" name="validInscription" value="S'inscrire" required>
                   </form>
                 </div>
 							</section>
@@ -93,13 +94,15 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+			<script src="Vue/assets/js/jquery.min.js"></script>
+			<script src="Vue/assets/js/jquery.scrollex.min.js"></script>
+			<script src="Vue/assets/js/jquery.scrolly.min.js"></script>
+			<script src="Vue/assets/js/skel.min.js"></script>
+			<script src="Vue/assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="Vue/assets/js/main.js"></script>
+			<script src="Vue/assets/js/bibliotheque.js"></script>
 
 	</body>
 </html>

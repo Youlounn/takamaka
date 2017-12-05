@@ -1940,7 +1940,9 @@
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.8em;
+			font-size: 0.7em;
+			font-style: bold;
+			padding : 0 !important;
 		}
 
 		input[type="submit"].big,

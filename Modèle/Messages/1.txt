@@ -1,0 +1,6 @@
+<html>
+<body>
+Bonjour, @@titre@@ @@nomfamille@@
+Comment allez vous ?	
+</body>
+</html>

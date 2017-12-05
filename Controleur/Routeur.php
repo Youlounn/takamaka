@@ -1,6 +1,15 @@
 <?php
 include 'ControleurConnexion.php';
 include 'ControleurInscription.php';
+include 'ControleurMailing.php';
+
+
+if (isset($_POST['method'])) {
+  if($_POST['method'] == "getMailing"){
+    $link = Routeur::connectDB();
+    ControleurMailing::getMailing($link);
+  }
+}
 
 if (isset($_POST['login']) && isset($_POST['password']) && isset($_POST['validConnexion'])) {
   $link = Routeur::connectDB();
@@ -21,11 +30,7 @@ class Routeur
     $pass = ''; // Mot de passe
     $base = 'takamaka'; // Base de données à utiliser
 
-    // On se connecte à la base de données
-    $link = mysql_connect($hote, $login, $pass);
-
-    // On selectionne la base de données souhaitée
-    $db = mysql_select_db($base,$link);
+    $link = new PDO('mysql:host=localhost;dbname=takamaka;charset=utf8', 'root', '');
     return $link;
   }
 }
