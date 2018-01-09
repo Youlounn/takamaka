@@ -1,0 +1,159 @@
+/* CSS Document */
+	.btn-vert{
+            background-color:#16a085;
+            border:none;
+            border-radius:5px;
+            font-size:18px;
+            color:#FFF;
+			padding:10px;
+            }
+    .btn-vert:hover{
+            background-color:#2ecc71;
+            }	
+	.btn-vert a{
+            text-decoration:none;
+            color:#FFFFFF;
+            }
+        
+     .btn-vert a:hover{
+            text-decoration:none;
+            color:#FFFFFF;
+            }
+			
+	.btn-rouge{
+		background-color:#ff6d5e;
+		border:none;
+		border-radius:5px;
+		font-size:18px;
+		color:#FFF;
+		padding:10px;
+		}
+		
+	.btn-rouge:hover{
+		background-color:#c0392b;
+		}
+	.btn-rouge a{
+            text-decoration:none;
+            color:#FFFFFF;
+            }
+        
+     .btn-rouge a:hover{
+            text-decoration:none;
+            color:#FFFFFF;
+            }
+				
+	.btn-gris{
+		
+		background-color:#95a5a6;
+		border:none;
+		border-radius:5px;
+		font-size:18px;
+		color:#FFF;
+		padding:10px;
+		}
+	.btn-gris:hover{
+		
+		background-color:#27ae60;
+		}
+		
+	.btn-vertClair{
+		
+		background-color:#1abc9c;
+		border:none;
+		border-radius:5px;
+		font-size:18px;
+		color:#FFF;
+		padding:10px;
+		}
+	.btn-vertClair:hover{
+		
+		background-color:#27ae60;
+		}
+	.btn-bleu{
+		
+		background-color:#12D5DF;
+		border:none;
+		border-radius:5px;
+		font-size:18px;
+		color:#FFF;
+		padding:10px;
+		}
+	.btn-bleu:hover{
+		
+		background-color:#27ae60;
+		}
+	.btn-vertClair a, .btn-vert a, .btn-rouge a, .btn-bleu a, .btn-gris a {
+		text-decoration:none;
+		color:#FFFFFF;
+		}
+		
+	.btn-vertClair a:hover, .btn-vert a:hover, .btn-rouge a:hover, .btn-bleu a:hover, .btn-gris a:hover {
+		text-decoration:none;
+		color:#FFFFFF;
+		}
+	
+	.parallax
+	{ 
+		/* The image used */
+		background:url(images/rri.jpg);
+		/* Set a specific height */
+		height: 1000px; 
+	
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		font-family: open-sans;
+	}
+	
+	.parallax2
+	{
+		background:url(images/sac_riz.jpg);
+		height:600px;
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size: cover;	
+		font-family: open-sans;
+	}
+	
+	.parallax3
+	{
+		background:url(images/rri.jpg);
+		height:600px;
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size: cover;	
+		font-family: open-sans;
+	}
+	
+	.identifiant{
+		background-color:#907B7C;
+		}
+	
+	.navbar-nav a:hover{
+				color:#1abc9c;
+				}
+	.bienvenuUser {
+		font-size:18px;
+		color:#FFFFFF;
+	}
+	.modal-title{
+		color:#27ae60;
+	}
+	.pe-7s-trash{
+		color:#F00C0F;
+	}
+	.detail:hover{
+			color:#27ae60;
+			cursor:pointer;
+		}
+	.detail{
+		color:#2B5E9A;
+		cursor:pointer;
+		font-size:18px;
+		text-decoration:underline;
+		font-weight:bold;
+	}
