@@ -52,7 +52,7 @@
                 <li class="active"><a href="#bibliotheque" data-toggle="dropdown">Bibliothèque </a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Messages</a></li>
-                        <li><a href="#">Mailing</a></li>
+                        <li><a href="../mailling/accueilMailling.php">Mailing</a></li>
                     </ul>
                 </li>
                 <li><a href="../campagne/accueilCampagne.php">Gestion des campagnes</a></li>
